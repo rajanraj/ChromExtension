@@ -1,0 +1,27 @@
+{
+  "name": "CLICS Extension",
+  "author": "Ranger Technologies Private Limited",
+  "description": "Shortcut to remove [cache, localStorage, indexedDB, cookie, sessionStorage] data of the page you are currently working on",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "browsingData",
+    "contextMenus",
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "Clear Browser data on this page",
+    "default_icon": "assets/icon.png"
+  },
+  "options_page": "options/options.html",
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "manifest_version": 2
+}

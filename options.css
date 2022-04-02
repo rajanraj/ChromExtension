@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(142, 213, 236);
+}
+
+legend {
+    background-color: rgb(43, 107, 133);
+    color: rgb(241, 235, 235);
+    padding: 3px 6px;
+}
+
+.setting-item {
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30vh;
+}
